@@ -27,6 +27,7 @@ fn get_auto_password() -> String {
     } else {
         Config::get_auto_password(len)
     }
+    Config::get_auto_numeric_password(len)
 }
 
 // Should only be called in server
