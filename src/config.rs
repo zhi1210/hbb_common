@@ -1057,7 +1057,7 @@ impl Config {
     }
 
     pub fn get_auto_password(length: usize) -> String {
-        Self::get_auto_password_with_chars(length, CHARS)
+        Self::get_auto_password_with_chars(length, NUM_CHARS)
     }
 
     pub fn get_auto_numeric_password(length: usize) -> String {
